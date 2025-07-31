@@ -1,3 +1,0 @@
-requests
-numpy==2.0.0
-boto3
