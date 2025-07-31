@@ -1,0 +1,16 @@
+### Test the AWS CPU-Bound Function
+POST http://127.0.0.1:3000/cpu-bound
+Content-Type: application/json
+
+{
+    "size": 300
+}
+
+###
+### Test the AWS IO-Bound Function
+POST http://127.0.0.1:3000/io-bound
+Content-Type: application/json
+
+{
+    "file_size_kb": 512
+}
