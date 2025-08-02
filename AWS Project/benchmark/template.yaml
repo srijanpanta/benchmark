@@ -50,3 +50,9 @@ Parameters:
   S3BucketName:
     Type: String
     Description: The name of the S3 bucket for the I/O-bound function.
+
+
+Outputs:
+  ApiUrl:
+    Description: "API Gateway endpoint URL for Prod stage"
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod'
