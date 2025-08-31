@@ -1,0 +1,8 @@
+2025-08-01T13:56:01.453Z INIT_START Runtime Version: python:3.12.v75	Runtime Version ARN: arn:aws:lambda:eu-west-2::runtime:aa140c0e9a9c41d993cb36eaf76013968a27ec935d7665a4368d6b0ba10a0f7e
+
+2025-08-01T13:56:02.541Z START RequestId: c7e45eb2-06f7-4c41-8911-b3be470851a8 Version: $LATEST
+
+2025-08-01T13:56:02.951Z END RequestId: c7e45eb2-06f7-4c41-8911-b3be470851a8
+
+2025-08-01T13:56:02.951Z REPORT RequestId: c7e45eb2-06f7-4c41-8911-b3be470851a8	Duration: 409.87 ms	Billed Duration: 410 ms	Memory Size: 256 MB	Max Memory Used: 95 MB	Init Duration: 1083.69 ms	
+
