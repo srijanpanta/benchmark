@@ -6,7 +6,6 @@ import statistics
 import numpy as np
 
 # --- CONFIGURATION ---
-# Define the test cases you want to run
 # The script will iterate through all of these automatically.
 TEST_CASES = [
     {"platform": "AWS",   "test_type": "CPU-Bound", "payload": {"size": 300}},
@@ -148,7 +147,7 @@ if __name__ == "__main__":
     
     # --- This is the main execution block ---
     
-    # Your specific deployment endpoints
+    #Deployment endpoints
     URLS = {
         "AWS": {
             "CPU-Bound": "https://fagy8bkn21.execute-api.eu-west-2.amazonaws.com/Prod/cpu-bound",
@@ -195,4 +194,4 @@ if __name__ == "__main__":
             print("\n--- Pausing for 60 seconds before next test case... ---")
             time.sleep(60)
 
-    print("\n\nAll benchmark tests completed! 🎉")
+    print("\n\nAll benchmark tests completed!")
