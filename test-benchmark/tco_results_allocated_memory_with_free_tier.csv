@@ -1,0 +1,9 @@
+Platform,Workload,Total Cost (£),Compute Cost,Invocation Cost,Gateway Cost,Logging Cost,Transfer Cost
+AWS,CPU-Bound (300),1.1,0.0,0.0,0.89,0.07,0.13
+AWS,CPU-Bound (1000),13.82,12.73,0.0,0.89,0.07,0.13
+AWS,IO-Bound (256),22.62,4.45,0.0,0.89,0.19,17.09
+AWS,IO-Bound (1024),74.91,5.47,0.0,0.89,0.19,68.36
+Azure,CPU-Bound (300),5.94,0.0,0.0,3.28,2.53,0.13
+Azure,CPU-Bound (1000),5.94,0.0,0.0,3.28,2.53,0.13
+Azure,IO-Bound (256),22.87,0.0,0.0,3.28,2.51,17.09
+Azure,IO-Bound (1024),74.17,0.0,0.0,3.28,2.53,68.36

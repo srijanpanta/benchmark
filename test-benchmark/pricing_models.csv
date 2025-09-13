@@ -1,0 +1,15 @@
+platform,metric,value
+AWS,invocation_price_per_million,0.17
+AWS,compute_price_per_gb_second,1.33e-05
+AWS,gateway_price_per_million,0.89
+AWS,logging_ingestion_price_per_gb,0.46
+AWS,transfer_out_price_per_gb,0.07
+AWS,free_tier_invocations,1000000
+AWS,free_tier_compute_gb_seconds,400000
+Azure,invocation_price_per_million,0.162
+Azure,compute_price_per_gb_second,1.3e-05
+Azure,gateway_price_per_million,3.279
+Azure,logging_ingestion_price_per_gb,2.246
+Azure,transfer_out_price_per_gb,0.07
+Azure,free_tier_invocations,1000000
+Azure,free_tier_compute_gb_seconds,400000

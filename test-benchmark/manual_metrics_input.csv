@@ -1,0 +1,9 @@
+platform,test_type,payload,avg_memory_used_mb_manual,avg_log_size_kb_manual,avg_transfer_out_kb_manual
+AWS,CPU-Bound,300,,0.17,2
+AWS,CPU-Bound,1000,,0.16,2
+AWS,IO-Bound,256,,0.43,256
+AWS,IO-Bound,1024,,0.43,1024
+Azure,CPU-Bound,300,2048,1.18,2
+Azure,CPU-Bound,1000,2048,1.18,2
+Azure,IO-Bound,256,2048,1.17,256
+Azure,IO-Bound,1024,2048,1.18,1024
